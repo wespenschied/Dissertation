@@ -1,0 +1,184 @@
+\begin{thebibliography}{}
+
+\bibitem[Altshuler \& Steinberg, 1984]{Alts:Quasi}
+Altshuler, A. \& Steinberg, L. (1984).
+\newblock Enumeration of the quasisimplicial {$3$}-spheres and {$4$}-polytopes
+  with eight vertices.
+\newblock {\em Pacific J. Math.}, 113(2), 269--288.
+
+\bibitem[Altshuler \& Steinberg, 1985]{Alts:Complete}
+Altshuler, A. \& Steinberg, L. (1985).
+\newblock The complete enumeration of the {$4$}-polytopes and {$3$}-spheres
+  with eight vertices.
+\newblock {\em Pacific J. Math.}, 117(1), 1--16.
+
+\bibitem[{Ayzenberg}, 2013]{SimplicialWedge}
+{Ayzenberg}, A. (2013).
+\newblock {Simplicial complexes Alexander dual to boundaries of polytopes}.
+\newblock {\em ArXiv e-prints}.
+
+\bibitem[Balinski, 1961]{Balinski}
+Balinski, M.~L. (1961).
+\newblock On the graph structure of convex polyhedra in {$n$}-space.
+\newblock {\em Pacific J. Math.}, 11, 431--434.
+
+\bibitem[Barvinok et~al., 2013a]{BarLeeNov:Many}
+Barvinok, A., Lee, S.~J., \& Novik, I. (2013a).
+\newblock Centrally symmetric polytopes with many faces.
+\newblock {\em Israel J. Math.}, 195(1), 457--472.
+
+\bibitem[Barvinok et~al., 2013b]{BarNov:Nbly}
+Barvinok, A., Lee, S.~J., \& Novik, I. (2013b).
+\newblock Explicit constructions of centrally symmetric {$k$}-neighborly
+  polytopes and large strictly antipodal sets.
+\newblock {\em Discrete Comput. Geom.}, 49(3), 429--443.
+
+\bibitem[Barvinok et~al., 2013c]{BarNov:Mom}
+Barvinok, A., Lee, S.~J., \& Novik, I. (2013c).
+\newblock Neighborliness of the symmetric moment curve.
+\newblock {\em Mathematika}, 59(1), 223--249.
+
+\bibitem[Barvinok \& Novik, 2008]{BarNov:CSCyclic}
+Barvinok, A. \& Novik, I. (2008).
+\newblock A centrally symmetric version of the cyclic polytope.
+\newblock {\em Discrete Comput. Geom.}, 39(1-3), 76--99.
+
+\bibitem[Bayer \& Bisztriczky, 2007]{BayerBisz}
+Bayer, M.~M. \& Bisztriczky, T. (2007).
+\newblock On {G}ale and braxial polytopes.
+\newblock {\em Arch. Math. (Basel)}, 89(4), 373--384.
+
+\bibitem[Bayer \& Lee, 1993]{BayerLee}
+Bayer, M.~M. \& Lee, C.~W. (1993).
+\newblock Combinatorial aspects of convex polytopes.
+\newblock In {\em Handbook of convex geometry, {V}ol.\ {A}, {B}}  (pp.\
+  485--534). North-Holland, Amsterdam.
+
+\bibitem[Bj{\"o}rner et~al., 1999]{OrientedMatBook}
+Bj{\"o}rner, A., Las~Vergnas, M., Sturmfels, B., White, N., \& Ziegler, G.~M.
+  (1999).
+\newblock {\em Oriented matroids}, volume~46 of {\em Encyclopedia of
+  Mathematics and its Applications}.
+\newblock Cambridge: Cambridge University Press, second edition.
+
+\bibitem[Br{\o}ndsted, 1983]{BronstedBook}
+Br{\o}ndsted, A. (1983).
+\newblock {\em An introduction to convex polytopes}, volume~90 of {\em Graduate
+  Texts in Mathematics}.
+\newblock New York: Springer-Verlag.
+
+\bibitem[Diestel, 2010]{Diestel}
+Diestel, R. (2010).
+\newblock {\em Graph theory}, volume 173 of {\em Graduate Texts in
+  Mathematics}.
+\newblock Heidelberg: Springer, fourth edition.
+
+\bibitem[Ewald, 1996]{Ewald}
+Ewald, G. (1996).
+\newblock {\em Combinatorial convexity and algebraic geometry}, volume 168 of
+  {\em Graduate Texts in Mathematics}.
+\newblock Springer-Verlag, New York.
+
+\bibitem[Gr{\"u}nbaum, 2003]{GrunBook}
+Gr{\"u}nbaum, B. (2003).
+\newblock {\em Convex polytopes}, volume 221 of {\em Graduate Texts in
+  Mathematics}.
+\newblock New York: Springer-Verlag, second edition.
+\newblock Prepared and with a preface by Volker Kaibel, Victor Klee and
+  G{\"u}nter M. Ziegler.
+
+\bibitem[Halin, 1966]{Halin}
+Halin, R. (1966).
+\newblock Zu einem {P}roblem von {B}. {G}r\"unbaum.
+\newblock {\em Arch. Math. (Basel)}, 17, 566--568.
+
+\bibitem[Henk et~al., 1997]{Handbook}
+Henk, M., Richter-Gebert, J., \& Ziegler, G.~M. (1997).
+\newblock Basic properties of convex polytopes.
+\newblock In {\em Handbook of discrete and computational geometry}, CRC Press
+  Ser. Discrete Math. Appl.  (pp.\ 243--270). Boca Raton, FL: CRC.
+
+\bibitem[Hibi, 1992]{Hibi}
+Hibi, T. (1992).
+\newblock {\em Algebraic Combinatorics on Convex Polytopes}.
+\newblock Glebe, N.S.W., Australia: Carslaw Publications.
+
+\bibitem[Kalai, 1988]{Kalai:Simple}
+Kalai, G. (1988).
+\newblock A simple way to tell a simple polytope from its graph.
+\newblock {\em J. Combin. Theory Ser. A}, 49(2), 381--383.
+
+\bibitem[Klee \& Minty, 1972]{KleeMinty}
+Klee, V. \& Minty, G.~J. (1972).
+\newblock How good is the simplex algorithm?
+\newblock In {\em Inequalities, {III} ({P}roc. {T}hird {S}ympos., {U}niv.
+  {C}alifornia, {L}os {A}ngeles, {C}alif., 1969; dedicated to the memory of
+  {T}heodore {S}. {M}otzkin)}  (pp.\ 159--175). Academic Press, New York.
+
+\bibitem[McMullen \& Shephard, 1971]{McMullenBook}
+McMullen, P. \& Shephard, G.~C. (1971).
+\newblock {\em Convex polytopes and the upper bound conjecture}.
+\newblock London: Cambridge University Press.
+\newblock Prepared in collaboration with J. E. Reeve and A. A. Ball, London
+  Mathematical Society Lecture Note Series, 3.
+
+\bibitem[Perles \& Shephard, 1967]{PerShep}
+Perles, M.~A. \& Shephard, G.~C. (1967).
+\newblock Facets and nonfacets of convex polytopes.
+\newblock {\em Acta Math.}, 119, 113--145.
+
+\bibitem[Stanley, 1999]{StanleyEC2}
+Stanley, R.~P. (1999).
+\newblock {\em Enumerative combinatorics. {V}ol. 2}, volume~62 of {\em
+  Cambridge Studies in Advanced Mathematics}.
+\newblock Cambridge: Cambridge University Press.
+\newblock With a foreword by Gian-Carlo Rota and appendix 1 by Sergey Fomin.
+
+\bibitem[Stanley, 2012]{StanleyEC1}
+Stanley, R.~P. (2012).
+\newblock {\em Enumerative combinatorics. {V}olume 1}, volume~49 of {\em
+  Cambridge Studies in Advanced Mathematics}.
+\newblock Cambridge: Cambridge University Press, second edition.
+
+\bibitem[Steinitz, 1922]{Steinitz:Paper}
+Steinitz, E. (1922).
+\newblock Polyeder und raumeinteilungen.
+\newblock {\em Enzykl. math. Wiss.}, 3, 1--139.
+
+\bibitem[Steinitz \& Rademacher, 1976]{Steinitz}
+Steinitz, E. \& Rademacher, H. (1976).
+\newblock {\em Vorlesungen \"uber die {T}heorie der {P}olyeder unter
+  {E}inschluss der {E}lemente der {T}opologie}.
+\newblock Berlin: Springer-Verlag.
+\newblock Reprint der 1934 Auflage, Grundlehren der Mathematischen
+  Wissenschaften, No. 41.
+
+\bibitem[Thomas, 2006]{Thomas}
+Thomas, R.~R. (2006).
+\newblock {\em Lectures in geometric combinatorics}, volume~33 of {\em Student
+  Mathematical Library}.
+\newblock Providence, RI: American Mathematical Society.
+\newblock IAS/Park City Mathematical Subseries.
+
+\bibitem[Wagner, 1937]{Wagner}
+Wagner, K. (1937).
+\newblock \"{U}ber eine {E}igenschaft der ebenen {K}omplexe.
+\newblock {\em Math. Ann.}, 114(1), 570--590.
+
+\bibitem[West, 1996]{West}
+West, D.~B. (1996).
+\newblock {\em Introduction to graph theory}.
+\newblock Upper Saddle River, NJ: Prentice Hall Inc.
+
+\bibitem[Whitney, 1932]{Whitney}
+Whitney, H. (1932).
+\newblock Congruent {G}raphs and the {C}onnectivity of {G}raphs.
+\newblock {\em Amer. J. Math.}, 54(1), 150--168.
+
+\bibitem[Ziegler, 1995]{ZieglerBook}
+Ziegler, G.~M. (1995).
+\newblock {\em Lectures on polytopes}, volume 152 of {\em Graduate Texts in
+  Mathematics}.
+\newblock New York: Springer-Verlag.
+
+\end{thebibliography}

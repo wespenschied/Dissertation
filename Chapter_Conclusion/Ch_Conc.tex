@@ -1,0 +1,36 @@
+\chapter{Conclusion}\label{chap:Conclusion}
+
+The first chapter with original work in it was Chapter \ref{chap:GaleDiagMod}.  It was shown that the join of polytopes has Gale diagram the direct sum of the Gale diagrams of the polytopes.  This was then used to give a quick classification of the combinatorial types of \(d\)-polytopes  with \(d+2\) vertices (this was already in the literature in \cite{McMullenBook}).  Next, the question, ``What happens if you duplicate a vertex in a Gale diagram?'' was answered.
+
+In Chapter \ref{chap:GalePolytopes} the idea of a Gale polytope was discussed (these were first introduced in \cite{BayerBisz}), and several properties were examined: a reversal of a Gale ordering is still a Gale ordering; no Gale polytope has more than two disjoint facets with an odd  number of vertices; and the product of Gale polytopes is again a Gale polytope, and a pyramid over a Gale polytope is again Gale.  This last property leads to the following question.
+\begin{Question}
+    Is the join of two Gale polytopes a Gale polytope?
+\end{Question}
+
+Chapter \ref{chap:Anticliques} attempts to answer the question, ``How big can an anticlique in the graph of a polytope be?''.  To answer this, first there was an exploration of what properties points in an anticlique have in a Gale diagram.  These properties were then used to show that the graph of a \(d\)-polytope with \(d+k\) vertices can have an anticlique with at most \(k-1\) vertices.  A sequence of \(d\)-polytopes with anticliques that are ``large'' is then described, and it is conjectured that these polytopes do in fact have anticliques with largest possible cardinality.  Recall the function \(f(d,k)\), defined as the largest size of an anticlique for a \(d\)-polytope with \(d+k\) vertices then the conjecture states that:
+    \begin{Conjecture}
+        \(f(d,k)=k-1-\floor{(k-3)/d}\).
+    \end{Conjecture}
+
+An alternative approach that was abandoned (but could still yield useful results) is as follows.  Assume that \(P\) is a \(d\)-polytope with \(d+k\) vertices, and a standard Gale diagram \(\Gamma\sbset\Sp{k-1}\cup\seta{\ve0}\).  If two points are in an anticlique, then there must be a hyperplane through the origin that separates them from all other points in \(\Gamma\).  This introduces a ``forbidden'' zone in \(\Sp{k-2}\).  How many of these forbidden zones are necessary to cover all of \(\Sp{k-2}\)?  Whatever this number is, it gives an upper bound on the size of an anticlique.  Part of this approach was an attempt to prove the following:
+    \begin{Conjecture}
+        Let \(P\) be a \(d\)-polytope with \(d+k\) vertices an anticlique \(A\), and a Gale diagram \(\Gamma\).  Then for each \(B\sbset A\) with \(2\le\card B\le\card A-1\), there is a hyperplane \(H\) through the origin in \(\R{k-1}\) such that \(H^{(+)}\cap\Gamma=\ol B\).
+    \end{Conjecture}
+
+Chapter \ref{chap:CompMulti} is the chapter that motivated everything before it.  The original motivating question was the following, found in \cite{GrunBook}.
+    \begin{Conjecture}[Gr\"unbaum]
+        If the \(k\)-complex \(\scr C\) is the \(k\)-skeleton of both a \(d\)-polytope and a \(d''\) polytope, where \(d\le d''\), then \(\scr C\) is the \(k\)-skeleton of a \(d'\)-polytope for every \(d'\) satisfying \(d\le d'\le d''\).
+    \end{Conjecture}
+Rather than attempt to attack the problem for all \(k\), the simplest case \(k=1\) was considered.  The field of search was then narrowed even further to simply asking for the dimensions in which the graph of a \(d\)-crosspolytope can be realized.  It is shown in \cite{Halin} that the graph \(G_d\) of a \(d\)-crosspolytope cannot be the graph of a polytope of dimension \(\floor{3d/2}\) or greater. In Chapter \ref{chap:CompMulti} polytopes of dimension \(k\) are exhibited with graph \(G_d\) for every \(d\le k\le\floor{3d/2}-1\).  This leaves the question of \(k\)-realizability for \(4\le k\le d-1\).  A survey of the state of current research into this question is then given.
+
+This search into realizability of graphs of crosspolytopes naturally turned into a question of the realizability of the graphs of all complete multipartite graphs.  The case of complete bipartite graphs is easily handled, and it is shown that only \(K_{1,1}\) and \(K_{2,2}\) are graphs of polytopes.  Next, complete \(3\)-partite graphs are considered, and several steps are taken toward completing the classification of realizable complete \(3\)-partite graphs.  The following conjecture is made regarding realizability of complete multipartite graphs:
+    \begin{Conjecture}
+        \(K_{n_1,n_2\dc n_s}\) is the graph of a polytope if and only if, as sets, \(\seta{n_1,n_2\dc n_s}\sbset\seta{1,2}\) and, as multisets, \(\seta{n_1,n_2\dc n_s}\) is not equal to either \(\seta{1,2}\) or \(\seta{n_1,n_2\dc n_s}\ne\seta{1,1,2}\).
+    \end{Conjecture}
+
+
+\begin{comment}
+\begin{Question}[Kalai?]
+    Does the graph of a centrally symmetric \(d\)-polytope always contain a \(G_d\) minor?
+\end{Question}
+\end{comment} 

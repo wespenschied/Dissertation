@@ -1,0 +1,9 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: Ch_Gale_Trans.aux
+Case mismatch error between cite keys Grunbook and GrunBook
+---line 31 of file Ch_Gale_Trans.aux
+ : \citation{Grunbook
+ :                   }
+I'm skipping whatever remains of this command
+I found no \bibdata command---while reading file Ch_Gale_Trans.aux
+I found no \bibstyle command---while reading file Ch_Gale_Trans.aux
+(There were 3 error messages)

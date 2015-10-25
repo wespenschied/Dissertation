@@ -1,0 +1,4 @@
+
+\chapter{Python Code to Determine Whether or not a Point Configuration is a Gale Diagram}\label{Appendix:Program}
+\lstset{language=Python, breaklines=true}
+\lstinputlisting{Gale.py}

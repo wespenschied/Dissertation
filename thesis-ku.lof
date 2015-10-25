@@ -1,0 +1,37 @@
+\select@language {english}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Simplices of dimensions $0$, $1$, $2$, and $3$.}}{6}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Cubes of dimensions $0$, $1$, $2$, and $3$.}}{7}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Crosspolytopes of dimensions $0$, $1$, $2$, and $3$.}}{7}
+\contentsline {figure}{\numberline {1.4}{\ignorespaces The polytope $C_{3}(6)$}}{9}
+\contentsline {figure}{\numberline {1.5}{\ignorespaces The hyperplane $J$.}}{15}
+\contentsline {figure}{\numberline {1.6}{\ignorespaces A vertex figure of a $3$-cube is a triangle.}}{16}
+\contentsline {figure}{\numberline {1.7}{\ignorespaces A prism over a triangle, and its Kleetope.}}{17}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Several cycle graphs.}}{19}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Several complete graphs.}}{19}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Several bipartite graphs. The first vertex set is colored white, and the second black.}}{20}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Several complete $3$-partite graphs.}}{20}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Examples of some minors of a graph $G$.}}{22}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces $K_{3,3}$ has a $K_4$ minor.}}{22}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces The Peterson graph.}}{23}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces $K_{2,2,2}$ is $4$-connected.}}{25}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Example of Theorem \ref {Thm:CompleteMinor}.}}{26}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Example of Theorem \ref {Thm:ConvAff}.}}{32}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces The polytope $X_{3}$ and a Gale transformation of its vertices.}}{40}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces A $3$-dimensional crosspolytope and a Gale transformation of its vertices.}}{40}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces The polytope $\prism {\Delta _2}$ and a Gale transformation of its vertices.}}{42}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Two Gale diagrams of $X_{3}$.}}{56}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Adding an antipode $\overline {1'}$ to the point $\overline {1}$ in a Gale diagram of $X_{3}$. (cf.{} Figure \ref {Fig:AddPt2Gale2})}}{56}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Adding an antipode $\overline {1'}$ to the point $\overline {1}$ in a Gale diagram of $X_{3}$. (cf.{} Figure \ref {Fig:AddPt2Gale1})}}{56}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Duplicating the point$\overline {1}$ in a Gale diagram of $C_{5}(2)$.}}{59}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces The regular dodecahedron and icosahedron are not Gale polytopes.}}{62}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {7.1}{\ignorespaces $G_4$, edges in the deletion set are dotted, and those in the contraction set are dashed.}}{84}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces $G_5$, edges in the deletion set are dotted, and those in the contraction set are dashed.}}{84}
+\addvspace {10\p@ }
+\addvspace {10\p@ }

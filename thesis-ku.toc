@@ -1,0 +1,64 @@
+\select@language {english}
+\contentsline {chapter}{\numberline {1}Polytopes}{1}
+\contentsline {section}{\numberline {1.1}Hulls; or, The Parts That Touch the Water}{1}
+\contentsline {section}{\numberline {1.2}Polytopes (not `Galeorhinus Galeus')}{3}
+\contentsline {section}{\numberline {1.3}Examples of Polytopes}{5}
+\contentsline {subsection}{\numberline {1.3.1}Simplices}{5}
+\contentsline {subsection}{\numberline {1.3.2}Cubes}{6}
+\contentsline {subsection}{\numberline {1.3.3}Crosspolytopes}{7}
+\contentsline {subsection}{\numberline {1.3.4}Simplicial and Simple Polytopes}{8}
+\contentsline {subsection}{\numberline {1.3.5}Cyclic and Gale Polytopes}{8}
+\contentsline {section}{\numberline {1.4}Neoteric Polytopes From Erstwhile Polytopes}{10}
+\contentsline {subsection}{\numberline {1.4.1}Pyramids}{10}
+\contentsline {subsection}{\numberline {1.4.2}Prisms}{11}
+\contentsline {subsection}{\numberline {1.4.3}Bipyramids}{11}
+\contentsline {subsection}{\numberline {1.4.4}Product}{12}
+\contentsline {subsection}{\numberline {1.4.5}Join}{13}
+\contentsline {subsection}{\numberline {1.4.6}Direct Sum}{14}
+\contentsline {subsection}{\numberline {1.4.7}Vertex Figures}{15}
+\contentsline {subsection}{\numberline {1.4.8}Kleetopes}{16}
+\contentsline {chapter}{\numberline {2}Graphs}{18}
+\contentsline {section}{\numberline {2.1}Definition and Examples}{18}
+\contentsline {section}{\numberline {2.2}Subgraphs and Minors}{21}
+\contentsline {section}{\numberline {2.3}Planarity and Connectivity}{23}
+\contentsline {section}{\numberline {2.4}Graphs of Polytopes}{25}
+\contentsline {chapter}{\numberline {3}Gale Transformations and Diagrams}{29}
+\contentsline {section}{\numberline {3.1}Definition of Gale Transformation}{29}
+\contentsline {subsection}{\numberline {3.1.1}Computing a Gale Transformation}{30}
+\contentsline {section}{\numberline {3.2}A Preliminary Result}{31}
+\contentsline {section}{\numberline {3.3}What is it good for?}{32}
+\contentsline {section}{\numberline {3.4}Gale Diagrams}{36}
+\contentsline {section}{\numberline {3.5}Standard Gale Diagrams}{39}
+\contentsline {section}{\numberline {3.6}Examples}{39}
+\contentsline {subsection}{\numberline {3.6.1}Crosspolytopes}{39}
+\contentsline {subsection}{\numberline {3.6.2}Prisms over Simplices}{40}
+\contentsline {section}{\numberline {3.7}Oriented Matroids}{42}
+\contentsline {subsection}{\numberline {3.7.1}Sign Vectors and Orthogonality}{42}
+\contentsline {subsection}{\numberline {3.7.2}Realizable Oriented Matroids}{44}
+\contentsline {subsubsection}{\numberline {3.7.2.1}Geometric Interpretation of $\mathcal {V}(X)$}{44}
+\contentsline {subsubsection}{\numberline {3.7.2.2}Geometric Interpretation of $\mathcal {V}^\perp (X)$}{45}
+\contentsline {subsection}{\numberline {3.7.3}General Oriented Matroids}{47}
+\contentsline {subsection}{\numberline {3.7.4}The Dual of an Oriented Matroid}{49}
+\contentsline {chapter}{\numberline {4}Modifying Gale Diagrams}{50}
+\contentsline {section}{\numberline {4.1}Joins and Direct Sums}{50}
+\contentsline {subsection}{\numberline {4.1.1}$d$-Polytopes with $d+2$ Vertices}{53}
+\contentsline {section}{\numberline {4.2}Adding Points to Gale Diagrams}{55}
+\contentsline {subsection}{\numberline {4.2.1}Adding an Antipode to a Gale Diagram}{57}
+\contentsline {subsection}{\numberline {4.2.2}Duplicating a Point in a Gale Diagram}{57}
+\contentsline {chapter}{\numberline {5}Gale Polytopes}{60}
+\contentsline {chapter}{\numberline {6}Anticliques in Graphs of Polytopes}{67}
+\contentsline {section}{\numberline {6.1}An Upper Bound on $f$}{68}
+\contentsline {section}{\numberline {6.2}A Lower Bound on $f$}{72}
+\contentsline {section}{\numberline {6.3}The Value of $f$ in Dimension $3$}{74}
+\contentsline {subsection}{\numberline {6.3.1}Euler's Theorem}{74}
+\contentsline {subsection}{\numberline {6.3.2}Bipartite Graphs Induced by Anticliques}{74}
+\contentsline {chapter}{\numberline {7}Realizability of Complete Multipartite Graphs}{76}
+\contentsline {section}{\numberline {7.1}Hereditary Classes of Graphs}{76}
+\contentsline {section}{\numberline {7.2}Complete Bipartite Graphs}{78}
+\contentsline {section}{\numberline {7.3}Complete $3$-partite Graphs}{79}
+\contentsline {subsection}{\numberline {7.3.1}Complete $k$-partite Graphs $(k>3)$}{81}
+\contentsline {section}{\numberline {7.4}Graphs of Crosspolytopes}{82}
+\contentsline {subsection}{\numberline {7.4.1}High Dimensional Realizations}{84}
+\contentsline {subsection}{\numberline {7.4.2}Low Dimensional Realizations}{85}
+\contentsline {chapter}{\numberline {8}Conclusion}{87}
+\contentsline {chapter}{\numberline {A}Python Code to Determine Whether or not a Point Configuration is a Gale Diagram}{94}

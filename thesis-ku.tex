@@ -1,0 +1,276 @@
+%% LyX 2.0.0 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass[12pt, english]{kuthesis}
+\usepackage{amsmath, amssymb, amsfonts}
+\usepackage{mathptmx}
+\renewcommand{\sfdefault}{lmss}
+\renewcommand{\ttdefault}{lmtt}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{listings, geometry}
+\geometry{verbose,tmargin=1in,bmargin=1in,lmargin=1in,rmargin=1in}
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+\usepackage{color}
+\usepackage{graphicx}
+\usepackage[doublespacing]{setspace}
+\usepackage{esint}
+\usepackage[authoryear]{natbib}
+\usepackage{amsthm, verbatim, bm}
+\usepackage{floatrow}
+\usepackage{listings}
+\usepackage{mathtools}
+\usepackage{calc}
+\usepackage{enumitem}
+\usepackage{slashbox}
+
+\newcommand{\ds}{\displaystyle}
+
+\newfloatcommand{capbtabbox}{table}[][\FBwidth]
+
+
+\newcommand{\dfn}[1]{\textit{#1}}
+\newcommand{\dc}{,\dotsc,}
+\DeclareMathOperator{\vrt}{vert}
+\makeatletter
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Allow overlay of characters
+\fboxsep=1pt
+\newcommand{\olay}[2]{\makebox[\widthof{$#2$}][c]{$#1$}}
+\newcommand{\ze}{\olay{0}{+}}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LyX specific LaTeX commands.
+\providecommand{\LyX}{L\kern-.1667em\lower.25em\hbox{Y}\kern-.125emX\@}
+%% Because html converters don't know tabularnewline
+\providecommand{\tabularnewline}{\\}
+%% A simple dot to overcome graphicx limitations
+\newcommand{\lyxdot}{.}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
+
+\newcommand{\tri}{\rotatebox[origin=c]{180}{\(\nabla\)}}
+\newcommand{\mb}[1]{\mathbb{#1}}
+\newcommand{\mc}[1]{\mathcal{#1}}
+\newcommand{\mbf}[1]{\mathbf{#1}}
+\newcommand{\scr}[1]{\mathcal{#1}}
+\newcommand{\mf}[1]{\mathfrak{#1}}
+\newcommand{\fl}[1]{\scr F(#1)}
+\newcommand{\ph}{\ensuremath{\phantom{.}}}
+\DeclareMathAlphabet{\mathpzc}{OT1}{pzc}{m}{it}
+
+\newcommand{\sbset}{\subseteq}
+
+\newcommand{\mt}{\varnothing}
+\newcommand{\la}{\lambda}
+\newcommand{\RR}{\mb R}
+\newcommand{\Tr}[1]{{#1}^{\mathrm{T}}}
+\newcommand{\R}[1]{\RR^{#1}}
+\newcommand{\Sp}[1]{\mb S^{#1}}
+\newcommand{\ol}[1]{\overline{#1}}
+\newcommand{\wt}[1]{\widetilde{#1}}
+\newcommand{\ve}[1]{\bm{#1}}
+\newcommand{\brac}[1]{\left[#1\right]}
+\newcommand{\floor}[1]{\left\lfloor#1\right\rfloor}
+\newcommand{\ceil}[1]{\left\lceil#1\right\rceil}
+\newcommand{\ip}[2]{\left\langle#1,#2\right\rangle}
+\newcommand{\abs}[1]{\left\lvert#1\right\rvert}
+\newcommand{\norm}[1]{\left\lVert#1\right\rVert}
+\newcommand{\card}[1]{\abs{#1}}
+\newcommand{\tast}{\ensuremath{\ast}}
+\newcommand{\join}{\vee}
+\newcommand{\N}{\mb N}
+\newcommand{\B}[2]{B_{#1}\left(#2\right)}
+\newcommand{\eps}{\varepsilon}
+\newcommand{\usv}[5]{\Tr{\begin{bmatrix}#1 & #2 & #3 & #4 & #5\end{bmatrix}}}
+\newcommand{\sv}[5]{\pm \usv#1#2#3#4#5}
+\newcommand{\lb}{\right.\\ &\phantom{= \left\{.\vphantom.\right.}\left.}
+\newcommand{\zmat}[2]{[0]_{\substack{#1\\ #2}} }
+\newcommand{\snl}{\right. \\ &\phantom{=\Biggl\{}\left.}
+\newcommand{\nv}{^{-1}}
+
+\newcommand{\cyc}[2]{C_{#2}(#1)}                            % cyclic polytope with #1 vertices in #2 dimensions
+\newcommand{\simp}[1]{\Delta_{#1}}                          % #1-simplex
+\newcommand{\cube}[1]{Q_{#1}}                               % #1-cube
+\newcommand{\xp}[1]{X_{#1}}                                 % #1-crosspolytope
+\newcommand{\rest}[2]{\left.#1\right\vert_{#2}}             % Restriction of G to W
+\newcommand{\gr}[1]{\mc G(#1)}                              % The graph of a polytope #1
+\newcommand{\conn}[1]{\kappa\left(#1\right)}                % connectivity of graph #1
+\newcommand{\had}[1]{h\left(#1\right)}                      % Hadwiger numberof graph #1
+
+
+\newcommand{\seta}[1]{\left\{#1\right\}}
+\newcommand{\setb}[2]{\seta{#1\vphantom{#1 #2}\phantom{.}\right\vert\left.\vphantom{#1 #2}#2}}
+
+\DeclareMathOperator{\spn}{span}
+\DeclareMathOperator{\conv}{conv}
+\DeclareMathOperator{\rref}{rref}
+\DeclareMathOperator{\relint}{relint}
+\DeclareMathOperator{\dep}{dep}
+\DeclareMathOperator{\aff}{aff}
+\DeclareMathOperator{\Ne}{N}
+\DeclareMathOperator{\Po}{P}
+\DeclareMathOperator{\sign}{sign}
+\DeclareMathOperator{\supp}{supp}
+\DeclareMathOperator{\pyr}{pyr}
+\DeclareMathOperator{\prism}{prism}
+\DeclareMathOperator{\galed}{gale}
+\DeclareMathOperator{\sgn}{{\textsc{sign}}}
+\DeclareMathOperator{\sepn}{sep}
+\DeclareMathOperator{\binlog}{lb}
+
+\newcommand{\Neg}[1]{\Ne(#1)}
+\newcommand{\Pos}[1]{\Po(#1)}
+\newcommand{\sep}[2]{\sepn\left(#1,#2\right)}
+
+%%%%%%%%%%%  Horizontal shifter
+\makeatletter
+\newcommand*{\shifttext}[2]{%
+  \settowidth{\@tempdima}{#2}%
+  \makebox[\@tempdima]{\hspace*{#1}#2}%
+}
+\makeatother
+
+%%%%%%%%%% amsthm Theorem styles
+
+% Define `Theorem', and reset its counter after each chapter increment.
+\newtheorem{Theorem}{Theorem}
+\makeatletter
+\@addtoreset{Theorem}{thechapter}
+\makeatother
+
+% Define `Conjecture', it has no counter.
+\newtheorem*{Conjecture}{Conjecture}
+
+
+% Define `Corollary', and reset its counter after each theorem increment.
+\newtheorem{Corollary}{Corollary}
+\makeatletter
+\@addtoreset{Corollary}{Theorem}
+\makeatother
+% Define UBT, no counter
+    \newtheorem*{UBT}{Upper Bound Theorem}
+% Define GEC, no counter
+    \newtheorem*{GEC}{Gale's Evenness Condition}
+% Define Cor, no counter
+    \newtheorem*{Cor}{Corollary}
+
+% Define `Lemma', count on the same counter as Theorem.
+    \newtheorem{Lemma}[Theorem]{Lemma}
+
+\theoremstyle{definition}
+% Define `Definition' and `Definftions', no counter.
+    \newtheorem*{Definition}{Definition}
+    \newtheorem*{Definitions}{Definitions}
+% Define `Note', no counter.
+    \newtheorem*{Note}{Note}
+% Define `Remark', no counter.
+    \newtheorem*{Remark}{Remark}
+    \newtheorem*{Question}{Question}
+% Define `OpenProblem', no counter.
+    \newtheorem*{OpenProblem}{Open Problem}
+% Define `Example', count on the same counter as Proposition.
+    \newtheorem{Example}[Theorem]{Example}
+% Define `Examples', count on the same counter as Proposition.
+    \newtheorem{Examples}[Theorem]{Examples}
+
+%   Proof Sketch environment
+    \newenvironment{SketchProof}{\trivlist\item[]{\sc{Sketch of Proof}}.}%
+    {\unskip\nobreak\hskip 1em plus 1fil\nobreak\(\Box\)
+    \parfillskip=0pt%
+    \endtrivlist}
+
+
+
+
+
+%used to align decimals in tables according to APA style
+\usepackage{dcolumn}
+\usepackage{booktabs}
+
+% Set the title and author info
+\title{Graphs of Polytopes}
+\author{William Espenschied}
+
+
+\dept{Department of Mathematics}
+\degreetitle{Doctor of Philosophy}
+\papertype{Dissertation} %capitalization is important here
+\committee{Margaret Bayer}{Jeremy Martin}{Jack Porter}{Saul Stahl}{Nancy Kinnersley}
+
+
+\begin{comment}
+\@ifundefined{showcaptionsetup}{}{%
+ \PassOptionsToPackage{caption=false}{subfig}}
+\usepackage{subfig}
+\makeatother
+\end{comment}
+
+\datedefended{09-02-2014}
+\dateapproved{09-02-2014}
+
+
+\usepackage{babel}
+
+
+\begin{document}
+
+
+    \begin{romanpages}
+
+    \maketitle
+    \begin{abstract}
+        The graph of a polytope is the graph whose vertex set is the set of vertices of the polytope, and whose edge set is the set of edges of the polytope. Several problems concerning graphs of polytopes are discussed.  The primary result is a set of bounds (Theorem \ref{Thm:Anticliques}) on the maximal size of an anticlique (sometimes called a coclique, stable set, or independent set) of the graph of a polytope based on its dimension and number of vertices.
+
+        Two results concerning properties preserved by certain operations on polytopes are presented.  The first is that the Gale diagram of a join of polytopes is the direct sum of the Gale diagrams of the polytopes and dually, that the Gale diagram of a direct sum of polytopes is the join of their Gale diagrams (Theorem \ref{Thm:DSumAndJoin}).  The second is that if two polytopes satisfy a weakened form of Gale's evenness condition, then so does their product (Theorem \ref{Thm:GaleProduct}).
+
+        It is shown, by other means, that, with only two exceptions, the complete bipartite graphs are never graphs of polytopes (Theorem \ref{Thm:CompBip}). The techniques developed throughout are then used to show that the complete \(3\)-partite graph \(K_{1,n,m}\) is the graph of a polytope if and only if \(K_{n,m}\) is the graph of a polytope (Theorem \ref{Thm:KOneNM}).  It is then shown that \(K_{2,2,3}\) and \(K_{2,2,4}\) are never graphs of polytopes. A conjecture is then stated as to precisely when a complete multipartite graph is the graph of a polytope.  Finally, a section is devoted to results concerning the dimensions for which the graph of a crosspolytope is the graph of a polytope.
+    \end{abstract}
+
+    \begin{acknowledgements}
+        My sincerest gratitude goes to my advisor, Professor Margaret Bayer.  Without her support and supervision I could not have completed this work.  I would also like to thank Professor Jeremy Martin for the assistance he provided.  They have both been incredibly helpful over the past eight years.  I would also like to thank Professor Heath Martin for his role in shaping my early career in mathematics as well as his recommendation that I attend KU.
+
+        I am grateful to the University of Kansas Department of Mathematics for support over the last eight years, and, in particular, the remaining members of my committee, Jack Porter and Saul Stahl.
+
+        Many thanks go to my friends for listening to my ramblings.  In particular, I would like to thank Lucas Chaffee, Alexander Console, Thomas Enkosky, Jarod Hart and Brandon Humpert.  Special thanks to Robert Bradford who made several insightful suggestions.
+
+        My parents, Bill and Elaine deserve copious thanks for putting up with me for more years than they had to, and for all of their optimism.  Further thanks go to my parents- and brother-in-law, Jack, Robin and Jake.  Finally, my wife, Erin, thank you for your unyielding support, devotion, and faith.
+    \end{acknowledgements}
+    \tableofcontents{}
+
+    \listoffigures
+
+    \listoftables
+
+    \end{romanpages}
+
+    \include{Chapter_Background/Ch_Background}
+    \include{Chapter_Graphs/Ch_Graphs}
+    \include{Chapter_Gale_Trans/Ch_Gale_Trans}
+    \include{Chapter_Mod_Gale_Diag/Ch_Mod_Gale_Diag}
+    \include{Chapter_Gale/Ch_Gale}
+    \include{Chapter_Anticliques/Ch_Anticliques}
+    \include{Chapter_Complete_Multi/Ch_Complete_Multi}
+    \include{Chapter_Conclusion/Ch_Conc}
+    \nocite{StanleyEC1}
+    \nocite{StanleyEC2}
+    \nocite{Handbook}
+    \nocite{West}
+    \nocite{BarNov:Nbly}
+    \nocite{BarNov:Mom}
+    \nocite{Kalai:Simple}
+    \nocite{Hibi}
+    \nocite{BayerLee}
+    \nocite{Ewald}
+
+    \global\long\def\bibname{References}
+
+
+    \bibliographystyle{apalike2}
+    \bibliography{Biblio/allcites}
+
+
+    \appendix
+    \include{Appendix1/Appendix1}
+\end{document}
